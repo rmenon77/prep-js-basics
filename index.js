@@ -9,7 +9,14 @@
 *
 * It should be a String.
 **/
-
+var firstName = "Ruby";
+console.log(firstName);
+var lastName = "Menon"
+console.log(lastName);
+var birthPlace = "Geneva";
+console.log(birthPlace);
+var persInfo = "Ruby was born in Geneva";
+console.log(persInfo);
 
 
 /**
@@ -21,7 +28,12 @@
 *
 * Their values should be a Number
 **/
-
+var favoriteNumber = 7;
+console.log(favoriteNumber);
+var currentYear = 2016;
+console.log(currentYear);
+var thatOnePrinceSong = 1999;
+console.log(thatOnePrinceSong);
 
 
 /**
@@ -34,6 +46,19 @@
 * Their values should be a Boolean
 **/
 
+var isDaytime = true;
+console.log(isDaytime);
+var isLeftHanded = false;
+console.log(isLeftHanded);
+var inHawaii = true;
+console.log(inHawaii);
+var isHappyCoding = false;
+console.log(isHappyCoding);
+
+
+
+console.log(inHawaii);
+
 
 
 /**
@@ -45,6 +70,10 @@
 * Their values should be a Null value
 **/
 
+var enrolledAtDevLeague = null;
+console.log(enrolledAtDevLeague);
+var completedFridayPrep = null
+console.log(completedFridayPrep);
 
 
 /**
@@ -56,7 +85,8 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ["California", "Oregon", "Washington"];
+console.log(westCoast);
 
 /**
 * #5b
@@ -67,6 +97,8 @@
 * Have at least ten even values in this array.
 **/
 
+var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
+console.log(evenNumbers);
 
 
 /**
@@ -80,7 +112,16 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
+// for each operation, give assign a different variable. i.e sum, mult, divOfNumbers
 
+var sumOfNumbers = 5 + 5;
+console.log(sumOfNumbers);
+
+var sumOfNumbers = 5 + 5 +5;
+console.log(sumOfNumbers);
+
+var multOfNumbers = 5*3;
+console.log(multOfNumbers);
 
 
 /**
@@ -101,6 +142,10 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = "Tacocat"==="tacocat";
+console.log(isEqual);
+
+
 
 
 /**
@@ -119,7 +164,14 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
+var generalContainer = 42;
+console.log(generalContainer);
+generalContainer += 5;
+console.log(generalContainer);
+generalContainer -= 5;
+console.log(generalContainer);
+generalContainer *= 10;
+console.log(generalContainer);
 
 /**
 * #7a
